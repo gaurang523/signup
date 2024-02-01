@@ -7,6 +7,9 @@
   body {
     font-family: 'Nunito', sans-serif;
     color: #384047;
+    background-image: url("blob-scene-haikei.svg");
+    background-repeat: no-repeat, repeat;
+
   }
   
   form {
