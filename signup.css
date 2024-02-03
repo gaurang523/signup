@@ -78,13 +78,16 @@
   }
   
   fieldset {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     border:#0091ff 1px solid;
+    margin: 0 auto; /* center the fieldset horizontally */ 
+  padding: 1em; /* add some padding around the fieldset */ 
   }
   
   legend {
     font-size: 1.4em;
     margin-bottom: 10px;
+    padding: 0.5em;
   }
   
   label {
@@ -121,5 +124,17 @@
   
   .signup {
     background-color: #0091ff;
+   margin-top: 20px;
   
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh stands for viewport height */
+  }
+  
+  form {
+    width: 50%; /* adjust this value to control the form's width */
   }
